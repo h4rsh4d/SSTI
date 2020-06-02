@@ -14,12 +14,14 @@ After detecting template injection, the next step is to identify the template en
 ## How to install.
 1. Download Flask_Code.py on local server. 
 2. Run Command python Flask_Code.py 
+
 ![run](https://github.com/h4rsh4d/Server-Side-Templet-Injection-/blob/master/Vulnerable%20Code/How%20to%20run.PNG)
 
-
 3. Access application http://localhost:1337/?name="injection"
-![GitHub Logo](/images/logo.png)
-![GitHub Logo](/images/logo.png)
+
+![1](https://github.com/h4rsh4d/Server-Side-Templet-Injection-/blob/master/Vulnerable%20Code/Output_1.PNG)
+
+![2](https://github.com/h4rsh4d/Server-Side-Templet-Injection-/blob/master/Vulnerable%20Code/Output_2.PNG)
 
 
 ## Referances : 
