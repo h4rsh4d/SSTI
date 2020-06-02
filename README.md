@@ -1,8 +1,8 @@
-# Server-side-templet-injection-
+# Server-side-template-injection-
 
-Above Vulnerable source code will help you to understand SSTI attack. 
+Above vulnerable source code will help you to understand SSTI attack. 
 
-Same way, I had found one templet injection on pinterest. so instead of writeup i created this small test bed for newbies.
+Same way, I had found one template injection on pinterest, so instead of writeup I created this small test bed for newbies.
 
 ## Summary
 Web applications commonly use server side templating technologies (Jinja2, Twig, FreeMaker, etc.) to generate dynamic HTML responses. Server Side Template Injection vulnerabilities (SSTI) occur when user input is embedded in a template in an unsafe manner and results in remote code execution on the server. Any features that support advanced user-supplied markup may be vulnerable to SSTI including wiki-pages, reviews, marketing applications, CMS systems etc. Some template engines employ various mechanisms (eg. sandbox, whitelisting, etc.) to protect against SSTI.
@@ -24,7 +24,7 @@ Next step is to identify the template engine in use. This step is sometimes as t
 ![2](https://github.com/h4rsh4d/Server-Side-Templet-Injection-/blob/master/Vulnerable%20Code/Output_2.PNG)
 
 
-## Referances : 
+## References : 
 https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server_Side_Template_Injection
 https://portswigger.net/kb/papers/serversidetemplateinjection.pdf
 https://portswigger.net/research/server-side-template-injection
